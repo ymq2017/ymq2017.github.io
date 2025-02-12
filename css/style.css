@@ -432,4 +432,19 @@ nav a {
 #pub2 .github-stars,
 #pub3 .github-stars {
     min-width: 3em;
+}
+
+/* Visitor Map Section */
+#visitors {
+    margin: 3rem 0;
+}
+
+.visitor-map-container {
+    width: 100%;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+[data-theme='dark'] .visitor-map-container {
+    filter: invert(0.9);
 } 
